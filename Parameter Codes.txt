@@ -1,0 +1,41 @@
+Filter Parameters Spheres Morphology
+min_area_mm2        = 0.5;
+max_mean_intensity  = 160;
+max_std_intensity   = 60;
+max_aspect_ratio    = 2;
+max_eccentricity    = 0.95;
+rundheit_schwelle   = 0.5;  
+
+Filter Parameters Pellets Morphology
+min_area_mm2        = 0.5;
+max_mean_intensity  = 100;
+max_std_intensity   = 15;
+max_aspect_ratio    = 2;
+max_eccentricity    = 0.95;
+rundheit_schwelle   = 0.5;  
+
+ROI Spheres Morphology
+x_start = 126; x_end = 1330;
+y_start = 1;   y_end = 400;
+
+
+ROI Spheres Luminosity
+r1 = 651:1000;   c1 = 125:550;     % top-left (Y:X)
+r2 = 651:1000;   c2 = 1040:1300;   % top-right (Y:X)
+
+ROI Pellets Morphology
+
+x_start = 126; x_end = 1330;
+y_start = 1;   y_end = 400;
+
+ROI Pellets Luminosity
+Day1+2
+                % --- Fixed regions (Fermentation: DAY 1+2) ---
+        % r1 = 351:750;   c1 = 125:580;     % top-left (Y:X)
+        % r2 = 351:750;   c2 = 1040:1330;   % top-right (Y:X)
+
+
+After Day 2
+               % --- Fixed regions (Fermentation: DAY 3-10) ---
+        % r1 = 1:400;   c1 = 125:580;     % top-left (Y:X)
+        % r2 = 1:400;   c2 = 1040:1330;   % top-right (Y:X)
